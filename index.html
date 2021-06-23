@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+</head>
+
+<body>
+    
+<form action="/" method="GET" enctype="multipart/form-data">
+
+    <!-- textbox -->
+    <label for="query">search</label>
+    <input type="text" name="query" id="query" placeholder="search by name..." /> <br> <br>
+
+    <!-- number -->
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="1" max="150" step="3" /> <br> <br>
+
+    <!-- data -->
+    <label for="birthdata">birthdata</label>
+    <input type="datetime-local" name="birthdata" id="birthdata" /> <br> <br>
+
+    <!-- visit tim -->
+    <label for="visit">birthdata</label>
+    <input type="time" name="visit" id="visit" /> <br> <br>
+
+    <!-- email -->
+    <label for="email">email</label>
+    <input type="email" name="email" id="email" placeholder="username@domain.com" /> <br> <br>
+
+    <!-- email -->
+    <label for="password">password</label>
+    <input type="password" name="password" id="password" /> <br> <br>
+
+    <!-- radio button -->
+    <input type="radio" name="gender" id="male" value="male" checked /> <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label> <br> <br>
+
+    <!-- checkbox -->
+    <input type="checkbox" name="field" id="computer-science" value="computer science" checked /> <label 
+         for="computer science">computer science</label>
+    <input type="checkbox" name="field" id="mathematic" value="mathematic"> <label
+         for="mathematic">mathematic</label> <br> <br>
+
+         <!-- dropdown -->
+         <select name="cities" id="">city
+             <option value="">please select one</option>
+             <option value="newyork">newyork</option>
+             <option value="tehran">tehran</option>
+         </select> <br> <br>
+
+         <!-- range -->
+         <input type="range" />
+
+         <input type="color" /> <br> <br>
+
+         <input type="file" />
+
+         <input type="hidden" /> <br> <br>
+
+         <!-- button -->
+         <button type="submit">submit</button>
+         <button type="reset">reset</button>
+
+
+</form>
+
+</body>
+
+</html>
